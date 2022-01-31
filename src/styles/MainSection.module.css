@@ -1,0 +1,44 @@
+.section {
+  background-color: var(--white-200);
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 150px 0;
+}
+
+.main h1 {
+  font-family: Sora;
+  width: 574px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  color: var(--gray-200);
+  white-space: pre-wrap;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 50px 0;
+  }
+  .main h1 {
+    width: 400px;
+  }
+}
+
+@media (max-width: 415px) {
+  .main img {
+    max-width: 100%;
+  }
+  .main h1 {
+    width: 100%;
+    font-size: 36px;
+  }
+}

@@ -1,0 +1,37 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 56px;
+  padding-bottom: 100px;
+}
+
+.section div {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-top: 80px;
+}
+
+.section h1 {
+  color: var(--gray-200);
+  font-family: Sora;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 50px;
+  font-style: normal;
+}
+
+@media (max-width: 1000px) {
+  .section div {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .section h1 {
+    text-align: center;
+  }
+}
