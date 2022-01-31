@@ -22,7 +22,7 @@
   white-space: pre-wrap;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .main {
     flex-direction: column-reverse;
     text-align: center;
@@ -33,12 +33,12 @@
   }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 460px) {
   .main img {
-    max-width: 100%;
+    max-width: 98%;
   }
   .main h1 {
-    width: 100%;
+    width: 98%;
     font-size: 36px;
   }
 }

@@ -1,0 +1,88 @@
+.containerContact {
+  background-image: url("../../public/Unsplash.png");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerContact h2 {
+  text-align: center;
+  margin: 0 auto;
+  font-family: Sora;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  color: #fff;
+}
+
+.containerContact p {
+  width: 528px;
+  margin-bottom: 100px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #dbdbdb;
+}
+
+.containerContact input {
+  border: none;
+  width: 300px;
+  background-color: transparent;
+  border-bottom: 2px solid #fff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgb(240, 240, 240);
+  padding: 10px;
+  margin-right: 80px;
+}
+
+.containerContact input:focus {
+  outline: none;
+}
+
+@media (max-width: 1100px) {
+  .containerContact {
+    width: 100%;
+  }
+}
+
+@media (max-width: 560px) {
+  .containerContact p {
+    width: 95%;
+  }
+  .containerContact input {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .containerContact {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .containerContact input {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 414px) {
+  .containerContact p {
+    width: 95%;
+  }
+  .containerContact input {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+}
